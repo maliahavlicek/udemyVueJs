@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <title>VueJS Course Work 1</title>
+    <link rel="stylesheet" href="">
+    <script src="../../js/vue.js"></script>
+</head>
+<body>
+    <div id="exercise">
+      <p>1. VueJS is pretty cool - {{ name }} {{ age }}</p>
+      <p>2.  Age * 3 = {{ ageMultiplyer(3) }} </p>
+      <p> 3. Random Number between 0 and 1: {{ randomNumber() }}</p>
+      <p>3b. RANDOM Number between 0 and 100: {{ randomNumber(100) }}</p>
+      <p>4. Google Image</p>
+      <div>
+          <img v-bind:src="image" />
+      </div>
+      <p>5. pre-populate input with name</p>
+      <div>
+        <input type="text" v-bind:value="name" />
+      </div>
+    </div>
+    <script>
+        new Vue ({
+            el: '#exercise',
+            data: {
+                name: "Malia Havlicek",
+                age: "44",
+                image: "https://ssl.quiksilver.com/static/QS/default/category-assets/marketing-landing/landing/build/img/surf/tiles/surf_featured_1.jpg"
+
+            },
+          methods: {
+              ageMultiplyer: function(num){
+                var multiplier = this.age * num;
+                return multiplier;
+              },
+              randomNumber: function(num){
+                if(typeof num != 'undefined'){
+                  return (Math.floor(Math.random() * num));
+                }
+                else{
+                  return Math.random();
+                }
+              }
+          }
+        });
+    </script>
+</body>
+</html>
