@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <title>VueJS</title>
+    <link rel="stylesheet" href="">
+    <style>
+      .demo{
+        width: 100px;
+        height: 100px;
+        background-color: gray;
+        display: inline-block;
+        margin: 10px;
+      }
+      .red{
+       background-color: red;
+      }
+      .green{
+        background-color: green;
+      }
+      .blue{
+        background-color: blue;
+      }
+    </style>
+    <script src="../../js/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+      <div class="demo" :style="{backgroundColor: color}"></div>
+      <div class="demo" :style="myStyle"></div>
+      <div class="demo" :style="[myStyle, { height: width + 'px' } ]"></div>
+      <hr>
+      <input type="text" v-model="color" />
+      <input type="text" v-model="width" />
+
+    </div>
+    <script>
+        new Vue ({
+            el: '#app',
+            data:{
+              color: 'gray',
+              width: 100,
+              life: 100
+            },
+            computed:{
+              myStyle: function(){
+                return{
+                  backgroundColor: this.color,
+                  width:this.width + "px"
+                }
+              },
+              lifeLeft: function(){
+                return{
+                  width: this.life +'%'
+                }
+
+              }
+
+            }
+
+        });
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <title>VueJS Course Work Assignment 4</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="exercise">
+
+  <p>1) Start the Effect with the Button. The Effect should alternate the "highlight" or "shrink" class on each new setInterval tick (attach respective class to the div with id "effect" below) </p>
+  <div>
+    <button @click="startEffect">Start Effect</button>
+    <div id="effect" :class="effectClass"></div>
+  </div>
+
+  <hr>
+  <p><2) Create a couple of CSS classes and attach them via the array syntax</p>
+  <div :class="['blue', 'bigGreen', 'shrink']">I got no class :(</div>
+
+  <hr>
+  <p> 3) Let the user enter a class (create some example classes) and attach it </p>
+  <div>
+    <input type="text" v-model="enteredClass"> <label>Enter a class red, highlight shrink, blue, bigGreen</label>
+    <div :class="enteredClass"></div>
+  </div>
+
+  <hr>
+  <p> 4) Let the user enter a class and enter true/ false for another class (create some example classes) and attach the classes </p>
+  <div>
+    <label>Entered class2 value: </label><input type="text" v-model="class2">
+    <label>Enter something to apply rounded class: </label><input type="text" v-model="class3">
+    <div :class="[class2, {rounded: class3}]">{{class2}} optional rounded</div>
+  </div>
+
+  <hr>
+  <p> 5) Repeat 3) but now with values for styles (instead of class names). Attach the respective styles.  </p>
+  <div>
+    <label>Enter a backgound-color to use</label><input type="text" v-model="myStyle.backgroundColor">
+    <div v-bind:style="myStyle"></div>
+  </div>
+
+  <hr>
+  <p> 6) Create a simple progress bar with setInterval and style bindings. Start it by hitting the below button.</p>
+  <div>
+    <button @click="startProgress">Start Progress</button>
+    <div class="progressBar">
+        <div class="life" :style="lifeLeft">{{percentComplete}}%</div>
+    </div>
+  </div>
+</div>
+
+
+    <script src="../../../js/vue.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

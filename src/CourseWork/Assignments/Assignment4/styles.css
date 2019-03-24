@@ -1,0 +1,59 @@
+#effect {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.highlight {
+  background-color: red;
+  width: 200px !important;
+}
+
+.shrink {
+  background-color: gray;
+  width: 50px !important;
+}
+.red{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.blue{
+  width: 100px;
+  height: 100px;
+  border: 3px solid blue;
+}
+.bigGreen {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+}
+
+.rounded{
+  border-radius: 10px;
+  width: 10px;
+  height: 10px;
+}
+
+
+.progressBar{
+  width: 100%;
+  height: 20px;
+  background-color: #cccccc;
+  border: 2px solid #cccccc;
+  display: block;
+  color: white;
+  padding:0;
+  margin:0;
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px solid #000;
+}
+.life{
+  background-color: blue;
+  display: inline-block;
+  height: 100%;
+  width: 0%;
+  text-align: center;
+}
