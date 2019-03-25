@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <title>VueJS</title>
+    <link rel="stylesheet" href="">
+    <style>
+
+    </style>
+    <script src="../../js/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+      <p v-if="show">I'm shown if you haven't hit switch</p>
+      <p v-else>I"m shown when you clicked switch</p>
+      <button @click="show = !show">Switch</button>
+    </div>
+    <script>
+        new Vue ({
+            el: '#app',
+            data:{
+              show: true,
+              type: 'A'
+            }
+
+        });
+    </script>
+</body>
+</html>
+
