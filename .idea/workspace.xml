@@ -1,88 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f84e16a-105b-43a8-a97b-447af5326a4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/CODE_OF_CONDUCT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/SUPPORT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/IntroVueJS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jscsrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.travis/github_deploy_key.enc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/doc/TOC.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/doc/css.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/doc/extend.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/doc/faq.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/doc/html.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/doc/js.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/doc/misc.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/doc/usage.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/humans.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/js/plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/js/vendor/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/js/vendor/modernizr-3.6.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/site.webmanifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/tile-wide.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/tile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulpfile.babel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modernizr-config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doc/TOC.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doc/css.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doc/extend.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doc/faq.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doc/html.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doc/js.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doc/misc.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doc/usage.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/humans.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/site.webmanifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tile-wide.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/file_content.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/file_existence.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CourseWork/Assignments/Assignment1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/CourseWork/Assignments/Assignment1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CourseWork/Section2/lesson2.4.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/CourseWork/Section2/lesson24.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CourseWork/Section2/lesson2.5.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/CourseWork/Section2/lesson25.html" afterDir="false" />
+    <list default="true" id="7f84e16a-105b-43a8-a97b-447af5326a4e" name="Default Changelist" comment="working on lesson 26-30">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,67 +10,83 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="IntroVueJS" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CourseWork/Assignments/Assignment1.html">
+        <entry file="file://$PROJECT_DIR$/src/CourseWork/Projects/MonsterSlayer/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+            <state relative-caret-position="127">
+              <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CourseWork/Assignments/Assignment2.html">
+        <entry file="file://$PROJECT_DIR$/src/CourseWork/Projects/MonsterSlayer/css/foundation.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="42" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CourseWork/Section2/lesson28.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CourseWork/Section2/lesson29.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+            <state>
+              <caret column="35" selection-start-column="35" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/CourseWork/Section2/lesson30.html">
+        <entry file="file://$PROJECT_DIR$/src/CourseWork/Projects/MonsterSlayer/css/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+            <state relative-caret-position="583">
+              <caret line="99" column="19" lean-forward="true" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CourseWork/Assignments/Assignment3.html">
+        <entry file="file://$PROJECT_DIR$/src/CourseWork/Projects/MonsterSlayer/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+            <state relative-caret-position="55">
+              <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/.gitignore">
+        <entry file="file://$PROJECT_DIR$/src/CourseWork/Assignments/Assignment4/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="-95">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CourseWork/Assignments/Assignment1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="428">
+              <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="45" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CourseWork/Assignments/Assignment5/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CourseWork/Assignments/Assignment5/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="42" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -167,6 +103,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>v-show</find>
+      <find>:st</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -190,14 +127,39 @@
         <option value="$PROJECT_DIR$/src/CourseWork/Assignments/Assignment1.html" />
         <option value="$PROJECT_DIR$/src/CourseWork/Section2/lesson29.html" />
         <option value="$PROJECT_DIR$/src/CourseWork/Section2/lesson30.html" />
+        <option value="$PROJECT_DIR$/src/CourseWork/Assignments/Assignment4/styles.css" />
+        <option value="$PROJECT_DIR$/src/CourseWork/Assignments/Assignment4/app.js" />
+        <option value="$PROJECT_DIR$/src/CourseWork/Assignments/Assignment4/index.html" />
+        <option value="$PROJECT_DIR$/src/CourseWork/Section3/lesson34.html" />
+        <option value="$PROJECT_DIR$/src/CourseWork/Section3/lesson36.html" />
+        <option value="$PROJECT_DIR$/src/CourseWork/Section6/lesson62.html" />
+        <option value="$PROJECT_DIR$/src/CourseWork/Section6/lesson64.html" />
+        <option value="$PROJECT_DIR$/src/CourseWork/Section6/lesson65.html" />
+        <option value="$PROJECT_DIR$/src/CourseWork/Section6/lesson66.html" />
+        <option value="$PROJECT_DIR$/src/CourseWork/Section6/lesson67.html" />
+        <option value="$PROJECT_DIR$/src/CourseWork/Section6/lesson68.html" />
+        <option value="$PROJECT_DIR$/src/CourseWork/Section6/lesson71.html" />
+        <option value="$PROJECT_DIR$/src/CourseWork/Section6/lesson70.html" />
+        <option value="$PROJECT_DIR$/src/CourseWork/Section5/lesson75.html" />
+        <option value="$PROJECT_DIR$/src/CourseWork/Section3/lesson37.html" />
+        <option value="$PROJECT_DIR$/src/CourseWork/Section3/lesson38.html" />
+        <option value="$PROJECT_DIR$/src/CourseWork/Section3/lesson39.html" />
+        <option value="$PROJECT_DIR$/src/CourseWork/Section3/lesson40.html" />
+        <option value="$PROJECT_DIR$/src/CourseWork/Section3/lesson41.html" />
+        <option value="$PROJECT_DIR$/src/CourseWork/Section3/lesson42.html" />
+        <option value="$PROJECT_DIR$/src/CourseWork/Section3/lesson43.html" />
+        <option value="$PROJECT_DIR$/src/CourseWork/Assignments/Assignment5/app.js" />
+        <option value="$PROJECT_DIR$/src/CourseWork/Assignments/Assignment5/index.html" />
+        <option value="$PROJECT_DIR$/src/CourseWork/Projects/MonsterSlayer/js/app.js" />
+        <option value="$PROJECT_DIR$/src/CourseWork/Projects/MonsterSlayer/index.html" />
+        <option value="$PROJECT_DIR$/src/CourseWork/Projects/MonsterSlayer/css/app.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="22" />
     <option name="y" value="23" />
-    <option name="width" value="1668" />
-    <option name="height" value="976" />
+    <option name="width" value="1715" />
+    <option name="height" value="977" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -207,7 +169,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,12 +199,38 @@
               <item name="IntroVueJS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="CourseWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Section2" type="462c0819:PsiDirectoryNode" />
+              <item name="Assignments" type="462c0819:PsiDirectoryNode" />
+              <item name="Assignment5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IntroVueJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IntroVueJS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="CourseWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Projects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IntroVueJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IntroVueJS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="CourseWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Projects" type="462c0819:PsiDirectoryNode" />
+              <item name="MonsterSlayer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IntroVueJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IntroVueJS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="CourseWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Projects" type="462c0819:PsiDirectoryNode" />
+              <item name="MonsterSlayer" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -260,15 +247,18 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/CourseWork/Section2" />
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/CourseWork/Assignments" />
       <recent name="$PROJECT_DIR$/src/CourseWork" />
       <recent name="$PROJECT_DIR$/src/CourseWork/Section2" />
       <recent name="$PROJECT_DIR$/src/CourseWork/Section1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/CourseWork/Section3" />
+      <recent name="$PROJECT_DIR$/src/CourseWork/Section5" />
+      <recent name="$PROJECT_DIR$/src/CourseWork/Section6" />
+      <recent name="$PROJECT_DIR$/src/CourseWork/Section2" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -301,7 +291,11 @@
       <workItem from="1552576981185" duration="7942000" />
       <workItem from="1552603970376" duration="1008000" />
       <workItem from="1553016399812" duration="1161000" />
-      <workItem from="1553452114520" duration="2563000" />
+      <workItem from="1553452114520" duration="19343000" />
+      <workItem from="1553570512404" duration="2280000" />
+      <workItem from="1553620368411" duration="1703000" />
+      <workItem from="1554224655703" duration="529000" />
+      <workItem from="1554664697209" duration="6946000" />
     </task>
     <task id="LOCAL-00001" summary="initial check in of vue course work">
       <created>1552582770540</created>
@@ -310,19 +304,40 @@
       <option name="project" value="LOCAL" />
       <updated>1552582770540</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="working on lesson 26-30">
+      <created>1553454813856</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553454813856</updated>
+    </task>
+    <task id="LOCAL-00003" summary="working on lesson 26-30">
+      <created>1553462822247</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1553462822247</updated>
+    </task>
+    <task id="LOCAL-00004" summary="zipping through section 5">
+      <created>1553553069847</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1553553069847</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25946000" />
+    <option name="totallyTimeSpent" value="54184000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="1097" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28386167" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.16702355" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.50139666" side_tool="true" weight="0.21058257" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -334,8 +349,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32944608" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.1663286" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3290993" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -371,7 +386,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial check in of vue course work" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial check in of vue course work" />
+    <MESSAGE value="working on lesson 26-30" />
+    <MESSAGE value="zipping through section 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="zipping through section 5" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/CourseWork2.html" />
@@ -384,23 +401,129 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CourseWork/Assignments/index.html" />
     <entry file="file://$PROJECT_DIR$/src/CourseWork/Assignments/app.js" />
+    <entry file="file://$PROJECT_DIR$/src/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Assignments/Assignment4/how-to-use.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Assignments/Assignment2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Section2/lesson31.html" />
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Section3/lesson35.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Section5/lesson62.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Section5/lesson63.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Section5/lesson64.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Section5/lesson65.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="15" column="55" lean-forward="true" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Section5/lesson66.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="51" column="95" selection-start-line="51" selection-start-column="95" selection-end-line="51" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Section5/lesson67.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Section5/lesson68.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="53" column="11" lean-forward="true" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Section5/lesson70.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Section5/lesson72.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Section5/lesson75.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Section5/lesson71.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CourseWork/Section2/lesson24.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="41" column="15" selection-start-line="33" selection-start-column="14" selection-end-line="41" selection-end-column="15" />
+        <state relative-caret-position="72">
+          <caret line="14" column="54" lean-forward="true" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CourseWork/Section2/lesson25.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="-62">
           <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CourseWork/Section2/lesson26.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
+        <state relative-caret-position="253">
           <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
         </state>
       </provider>
@@ -412,52 +535,171 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CourseWork/Assignments/Assignment1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CourseWork/Assignments/Assignment2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="42" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CourseWork/Assignments/Assignment3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CourseWork/Section2/lesson28.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CourseWork/Section2/lesson29.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        <state relative-caret-position="-70">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CourseWork/Section2/lesson30.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+        <state relative-caret-position="194">
+          <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Section2/lesson29.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="64" column="18" lean-forward="true" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Section3/lesson36.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Section3/lesson37.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Section3/lesson39.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Section3/lesson40.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Section3/lesson41.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Section3/lesson42.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Section3/lesson43.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Assignments/Assignment3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Section3/lesson38.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Assignments/Assignment5/how-to-use.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Section3/lesson34.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Assignments/Assignment5/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="42" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Assignments/Assignment5/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Assignments/Assignment4/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Assignments/Assignment4/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Assignments/Assignment1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="45" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Assignments/Assignment4/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Projects/MonsterSlayer/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Projects/MonsterSlayer/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Projects/MonsterSlayer/css/foundation.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseWork/Projects/MonsterSlayer/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="99" column="19" lean-forward="true" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
         </state>
       </provider>
     </entry>
