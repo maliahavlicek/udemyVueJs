@@ -1,12 +1,17 @@
 .text-center {
     text-align: center;
 }
+.columns h1{
+  margin: 0 auto;
+}
 
 .healthbar {
-    width: 80%;
+    width: 100%;
     height: 40px;
-    background-color: #eee;
-    margin: auto;
+    background-color: #cccccc;
+    margin: 0;
+    color: white;
+    font-size: 1.5rem;
     transition: width 500ms;
 }
 
@@ -106,12 +111,73 @@ button {
   background: url('monster.jpg') no-repeat 0 0;
 	width: 320px;
 	height: 300px;
-
 }
+
 .avitar{
   height: 320px;
   width: 80%;
   margin: 10px auto;
   text-align: center;
   vertical-align: bottom;
+}
+.dying{
+    -webkit-transform: scale(1,.75);
+        -ms-transform: scale(1,.75);
+        transform: scale(1,.75);
+  transition: all .8s ease-in;
+}
+.dead{
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  transform-origin: center center;
+  transition: all .8s ease-in;
+
+}
+.dead.monster{
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+.dead:before{
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255,69,0, 0.5);
+  transition: all .8s ease-in;
+}
+
+
+
+@-webkit-keyframes shrink {
+    from {
+        -webkit-transform:scale(1);
+    }
+    to {
+        -webkit-transform:scale(.75);
+    }
+}
+@-moz-keyframes shrink {
+    from {
+        -moz-transform:scale(1);
+    }
+    to {
+        -moz-transform:scale(.75);
+    }
+}
+@keyframes shrink {
+    from {
+        transform:scale(1);
+    }
+    to {
+        transform:scale(.75);
+    }
 }

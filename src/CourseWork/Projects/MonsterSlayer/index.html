@@ -11,46 +11,47 @@
     <section class="row">
         <div class="small-6 columns">
 
-            <div class="avitar">
-              <div class="you"></div>
+            <div class="avitar" :class="{dying:yourHealth<=0}">
+              <div class="you" :class="{dead:yourHealth<=0}"></div>
             </div>
             <h1 class="text-center">YOU</h1>
             <div class="healthbar">
-                <div class="healthbar text-center" style="background-color: green; margin: 0; color: white;">
-
+                <div class="healthbar text-center" :style="health(yourHealth)">
+                    {{ yourHealth | percentage }}
                 </div>
             </div>
         </div>
         <div class="small-6 columns">
-            <div class="avitar">
-              <div class="monster"></div>
+            <div class="avitar" :class="{dying:monsterHealth<=0}">
+              <div class="monster" :class="{dead:monsterHealth<=0}"></div>
             </div>
             <h1 class="text-center">MONSTER</h1>
             <div class="healthbar">
-                <div class="healthbar text-center" style="background-color: green; margin: 0; color: white;">
-
+                <div class="healthbar text-center" :style="health(monsterHealth)">
+                    {{ monsterHealth | percentage }}
                 </div>
             </div>
         </div>
     </section>
     <section class="row controls">
         <div class="small-12 columns">
-            <button id="start-game" @click="startGame()">START NEW GAME</button>
+            <h1>{{ message }}</h1>
+            <button v-if="!inGame" id="start-game" @click="startGame()">START NEW GAME</button>
         </div>
     </section>
     <section class="row controls" v-if="inGame">
         <div class="small-12 columns">
-            <button id="attack">ATTACK</button>
-            <button id="special-attack">SPECIAL ATTACK</button>
-            <button id="heal">HEAL</button>
-            <button id="give-up">GIVE UP</button>
+            <button id="attack" @click="attack('you');">ATTACK</button>
+            <button id="special-attack" @click="specialAttack()">SPECIAL ATTACK</button>
+            <button id="heal" @click="heal()">HEAL</button>
+            <button id="give-up" @click="giveUp()">GIVE UP</button>
         </div>
     </section>
     <section class="row log">
         <div class="small-12 columns">
             <ul>
-                <li>
-
+                <li v-for="(entry, index) in playLog" :class="entry.aggressor=='Monster' ? 'monster-turn' : 'player-turn' ">
+                   {{entry.id}}: {{entry.aggressor}} {{ entry.action }} {{ entry.victim }} for {{ entry.value }}
                 </li>
             </ul>
         </div>
