@@ -75,7 +75,7 @@ new Vue({
       else{
         this.yourHealth = healing;
       }
-      this.playLog.push({id: this.playLog.length, aggressor: 'Player', action: 'Heals', victim: 'self', value: this.yourHealth - initialValue });
+      this.playLog.push({id: this.playLog.length+1, aggressor: 'Player', action: 'Heals', victim: 'self', value: this.yourHealth - initialValue });
       //monster attacks after healing
       this.attack('monster');
     },
@@ -83,7 +83,7 @@ new Vue({
       //attack will be a random number plus a random number if monster is a aggressor
       if(aggressor=='monster'){
         let damage = this.randomNumber() + this.randomNumber();
-        this.playLog.push({id: this.playLog.length, aggressor: 'Monster', action: 'attacks', victim: 'Player', value: damage });
+        this.playLog.push({id: this.playLog.length+1, aggressor: 'Monster', action: 'attacks', victim: 'Player', value: damage });
         this.yourHealth-= damage;
         this.endGame();
       }
@@ -94,7 +94,7 @@ new Vue({
           num=1;
         }
         let damage = this.randomNumber()*num;
-        this.playLog.push({id: this.playLog.length, aggressor: 'You', action: 'attack', victim: 'Monster', value: damage });
+        this.playLog.push({id: this.playLog.length+1, aggressor: 'You', action: 'attack', victim: 'Monster', value: damage });
         this.monsterHealth-= damage;
         this.attack('monster');
       }
