@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <title>VueJS</title>
+    <link rel="stylesheet" href="">
+    <style>
+
+    </style>
+    <script src="../../js/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+      <my-component></my-component>
+      <my-component></my-component>
+    </div>
+
+
+    <script>
+    Vue.component ('my-component', {
+
+            data: function() {
+              return{
+              status: "Critical"
+            }
+
+            },
+             template: "<p> Server Status: {{status}}</p"
+
+    });
+
+        new Vue ({
+            el: '#app',
+
+        });
+    </script>
+</body>
+</html>
+
